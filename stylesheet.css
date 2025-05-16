@@ -1,0 +1,111 @@
+/* body */
+
+body {border-style:outset;background-image:url(images/blossoms.jpg);}
+
+/* div */
+
+div {background-color:lightblue;border-style:outset;opacity:0.8;}
+
+div.alter {background-color:pink;border-style:outset;}
+
+/* details */
+
+details {
+    color: darkblue;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+/* shadow for text */
+
+.shadow {text-shadow: 1px 1px 2px white, 0px 0px 25px lightblue, 0px 0px 10px darkblue;}
+
+/* headings */
+
+h1 {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+h3 {
+    font-family: "Roboto Mono", monospace;
+    text-align: left;
+    text-decoration: underline;
+    color: darkblue;
+    padding-left: 25px;
+}
+
+h4 {
+    font-family: "Roboto Mono", monospace;
+    text-align: left;
+    text-decoration: underline;
+    color: darkblue;
+    padding-left: 25px;
+}
+
+/* link statuses */
+
+a:link {color: blue;}
+
+a:visited {color: red;}
+
+a:hover {color: black;}
+
+a:active {color: white;}
+
+/* paragraph */
+
+p {
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+/* lists */
+
+li {color:darkblue;font-family:'Courier New', Courier, monospace;}
+
+ul {padding-left:110px;padding-right:110px;}
+
+ol {padding-left:120px;padding-right:120px;}
+
+/* image classes */
+
+img.size1 {
+    height: 150px;
+    width: 260px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+img.size2 {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+img.size3 {
+    height: 250px;
+    width: 350px;
+    padding: 40px;
+    float: left;
+}
+
+img.size4 {
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+    float: left;
+}
